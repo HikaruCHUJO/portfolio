@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff; /* 背景色を白に設定 */
+    flex-direction: column; /* コンテンツを縦方向に配置 */
 }
 
 .centered {
@@ -14,6 +15,13 @@ body {
 
 h1 {
     font-size: 3rem; /* 名前のサイズを調整 */
-    font-family: cursive script, sans-serif; /* フォントを設定 */
+    font-family: Arial, sans-serif; /* フォントを設定 */
     color: #000; /* テキストの色を黒に設定 */
+}
+
+h2 {
+    font-size: 2rem; /* 追加テキストのサイズを調整 */
+    font-family: Arial, sans-serif; /* フォントを設定 */
+    color: #000; /* テキストの色を黒に設定 */
+    margin-top: 1rem; /* 上部に余白を追加 */
 }
