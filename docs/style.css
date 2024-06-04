@@ -25,3 +25,15 @@ h2 {
     color: #000; /* テキストの色を黒に設定 */
     margin-top: 1rem; /* 上部に余白を追加 */
 }
+h3 {
+    font-size: 2rem; /* 追加テキストのサイズを調整 */
+    font-family: Arial, sans-serif; /* フォントを設定 */
+    color: #000; /* テキストの色を黒に設定 */
+    margin-top: 1rem; /* 上部に余白を追加 */
+}
+p {
+    font-size: 1rem; /* 段落のテキストサイズを設定 */
+    font-family: Arial, sans-serif; /* フォントを設定 */
+    color: #000; /* テキストの色を黒に設定 */
+    margin-top: 1rem; /* 上部に余白を追加 */
+}
