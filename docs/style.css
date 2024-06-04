@@ -1,25 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* 背景色を白に設定 */
 }
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+
+.centered {
     text-align: center;
 }
-section {
-    margin: 2rem;
-}
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+
+h1 {
+    font-size: 3rem; /* 名前のサイズを調整 */
+    font-family: Arial, sans-serif; /* フォントを設定 */
+    color: #000; /* テキストの色を黒に設定 */
 }
