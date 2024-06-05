@@ -71,17 +71,17 @@ button:hover {
 }
 
 .grid-item {
-    position: relative; /* 内部要素を絶対配置するために必要 */
-    padding-top: 10%; /* 高さを幅の100%に設定して正方形を維持 */
+    width: 100px; /* 正方形のサイズを設定 */
+    height: 100px; /* 正方形のサイズを設定 */
+    overflow: hidden; /* 写真のはみ出しを制御するために必要 */
 }
-
 
 .grid-item img {
-    position: absolute; /* 親要素に絶対配置 */
-    width: 10%;
-    height: 10%;
-    object-fit: contain; /* 画像をコンテナに収める */
+    width: 100%; /* 画像の幅を親要素に合わせて調整 */
+    height: 100%; /* 画像の高さを親要素に合わせて調整 */
+    object-fit: cover; /* 画像を親要素にフィットさせる */
 }
+
 
 
 /* レスポンシブデザイン */
