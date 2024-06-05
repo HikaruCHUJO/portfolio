@@ -16,6 +16,7 @@ body {
 }
 .page + .page {
     margin-top: 2000px; /* セクション間にマージンを追加 */
+}    
 h1 {
     font-size: 3rem; /* 名前のサイズを調整 */
     font-family: cursive script, sans-serif; /* フォントを設定 */
@@ -54,13 +55,13 @@ button {
     cursor: pointer;
     border: 1px solid #fff;
     background-color: #ADD8E6;
-    color: #000; /* 文字色を黒に設定 */
+    color: #ADD8E6; /* 文字色を黒に設定 */
     transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
     background-color: #87CEEB; /* ホバー時の背景色を少し濃い水色に設定 */
-    color: #000; /* ホバー時の文字色を黒に設定 */
+    color: #ADD8E6; /* ホバー時の文字色を黒に設定 */
 }
 
 .grid-container {
@@ -71,14 +72,14 @@ button:hover {
 }
 
 .grid-item {
-    width: 150px; /* 正方形のサイズを設定 */
-    height: 150px; /* 正方形のサイズを設定 */
+    width: 130px; /* 正方形のサイズを設定 */
+    height: 130px; /* 正方形のサイズを設定 */
     overflow: hidden; /* 写真のはみ出しを制御するために必要 */
 }
 
 .grid-item img {
-    width: 100%; /* 画像の幅を親要素に合わせて調整 */
-    height: 100%; /* 画像の高さを親要素に合わせて調整 */
+    width: 80%; /* 画像の幅を親要素に合わせて調整 */
+    height: 80%; /* 画像の高さを親要素に合わせて調整 */
     object-fit: cover; /* 画像を親要素にフィットさせる */
 }
 
