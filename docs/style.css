@@ -57,11 +57,11 @@ button {
 }
 
 button:hover {
-    background-color: #FF0000; /* ホバー時の背景色を少し薄い水色に設定 */
+    background-color: #FF0000; /* ホバー時の背景色を真っ赤に設定 */
     color: #000; /* ホバー時の文字色を黒に設定 */
 }
 button:active {
-    background-color: #ADD8E6; /* タッチ時の背景色を真っ赤な色に設定 */
+    background-color: #ADD8E6; /* タッチ時の背景色を水色に設定 */
     color: #FFFFFF; /* タッチ時の文字色を白に設定 */
 }
 
@@ -99,6 +99,7 @@ button:active {
     .grid-container {
         grid-template-columns: repeat(2, 1fr); /* 2列に変更 */
     }
+    margin-top: 200px; /* セクション間にマージンを追加 */
 }
 
 @media (max-width: 480px) {
@@ -119,7 +120,7 @@ button:active {
         height: auto; /* 高さを自動調整 */
     }
     .page + .page {
-    margin-top: 10px; /* セクション間にマージンを追加 */
+    margin-top: 200px; /* セクション間にマージンを追加 */
 }
 
 }
