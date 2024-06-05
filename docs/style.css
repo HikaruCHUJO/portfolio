@@ -118,4 +118,8 @@ button:active {
         width: 100%; /* 幅を100%に設定 */
         height: auto; /* 高さを自動調整 */
     }
+    .page + .page {
+    margin-top: 2000px; /* セクション間にマージンを追加 */
+}
+
 }
