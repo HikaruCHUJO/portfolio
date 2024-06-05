@@ -66,13 +66,13 @@ button:hover {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* 画像間のスペースを設定 */
+    gap: 30px; /* 画像間のスペースを設定 */
     padding: 20px;
 }
 
 .grid-item {
-    width: 100px; /* 正方形のサイズを設定 */
-    height: 100px; /* 正方形のサイズを設定 */
+    width: 150px; /* 正方形のサイズを設定 */
+    height: 150px; /* 正方形のサイズを設定 */
     overflow: hidden; /* 写真のはみ出しを制御するために必要 */
 }
 
