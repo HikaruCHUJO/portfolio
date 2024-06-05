@@ -60,11 +60,15 @@ button:hover {
     background-color: #ADD8E6; /* ホバー時の背景色を少し薄い水色に設定 */
     color: #000; /* ホバー時の文字色を黒に設定 */
 }
+button:active {
+    background-color: #FF0000; /* タッチ時の背景色を真っ赤な色に設定 */
+    color: #FFFFFF; /* タッチ時の文字色を白に設定 */
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px; /* 画像間のスペースを設定 */
+    gap: 50px; /* 画像間のスペースを設定 */
     padding: 20px;
 }
 
