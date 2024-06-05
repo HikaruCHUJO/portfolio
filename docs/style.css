@@ -80,8 +80,8 @@ button:active {
 }
 
 .grid-item img {
-    width: 100%; /* 画像の幅を親要素に合わせて調整 */
-    height: 100%; /* 画像の高さを親要素に合わせて調整 */
+    width: 10%; /* 画像の幅を親要素に合わせて調整 */
+    height: 10%; /* 画像の高さを親要素に合わせて調整 */
     object-fit: cover; /* 画像を親要素にフィットさせる */
 }
 
@@ -132,7 +132,7 @@ button:active {
 }
 
     .page + .page {
-    margin-top: 1400px; /* セクション間にマージンを追加 */
+    margin-top: 1200px; /* セクション間にマージンを追加 */
 }
 
 }
