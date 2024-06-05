@@ -59,20 +59,20 @@ button {
 }
 
 button:hover {
-    background-color: #000;
+    background-color: #C0C0C0;
     color: #fff;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* 画像間のスペースを設定 */
+    gap: 30px; /* 画像間のスペースを設定 */
     padding: 20px;
 }
 
 .grid-item {
-    width: 100px; /* 画像の幅を設定 */
-    height: 100px; /* 画像の高さを設定 */
+    width: 200px; /* 画像の幅を設定 */
+    height: 200px; /* 画像の高さを設定 */
 }
 
 .grid-item img {
