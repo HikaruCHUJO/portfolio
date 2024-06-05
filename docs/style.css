@@ -74,14 +74,14 @@ button:active {
 }
 
 .grid-item {
-    width: 170px; /* 正方形のサイズを設定 */
+    width: 200px; /* 正方形のサイズを設定 */
     height: 150px; /* 正方形のサイズを設定 */
     overflow: hidden; /* 写真のはみ出しを制御するために必要 */
 }
 
 .grid-item img {
-    width: 10%; /* 画像の幅を親要素に合わせて調整 */
-    height: 10%; /* 画像の高さを親要素に合わせて調整 */
+    width: 100%; /* 画像の幅を親要素に合わせて調整 */
+    height: 100%; /* 画像の高さを親要素に合わせて調整 */
     object-fit: cover; /* 画像を親要素にフィットさせる */
 }
 
