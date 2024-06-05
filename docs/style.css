@@ -60,7 +60,7 @@ button {
 
 button:hover {
     background-color: #C0C0C0;
-    color: #fff;
+    color: #fffff9;
 }
 
 .grid-container {
@@ -71,8 +71,8 @@ button:hover {
 }
 
 .grid-item {
-    width: 180px; /* 画像の幅を設定 */
-    height: 180px; /* 画像の高さを設定 */
+    width: 160px; /* 画像の幅を設定 */
+    height: 160px; /* 画像の高さを設定 */
 }
 
 .grid-item img {
