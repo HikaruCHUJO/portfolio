@@ -71,8 +71,8 @@ button:hover {
 }
 
 .grid-item {
-    width: 150px; /* 画像の幅を設定 */
-    height: 150px; /* 画像の高さを設定 */
+    width: 1300px; /* 画像の幅を設定 */
+    height: 130px; /* 画像の高さを設定 */
 }
 
 .grid-item img {
