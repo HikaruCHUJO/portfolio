@@ -122,7 +122,7 @@ button:active {
     }
 
     .page + .page {
-    margin-top: 1000px; /* セクション間にマージンを追加 */
+    margin-top: 1200px; /* セクション間にマージンを追加 */
 }
 
 }
