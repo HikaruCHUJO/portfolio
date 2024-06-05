@@ -15,7 +15,7 @@ body {
     padding: 20px; /* セクション全体にパディングを追加 */
 }
 .page + .page {
-    margin-top: 2000px; /* セクション間にマージンを追加 */
+    margin-top: 20px; /* セクション間にマージンを追加 */
 }    
 h1 {
     font-size: 3rem; /* 名前のサイズを調整 */
@@ -54,14 +54,14 @@ button {
     font-size: 1rem;
     cursor: pointer;
     border: 1px solid #fff;
-    background-color: #ADD8E6;
-    color: #ADD8E6; /* 文字色を黒に設定 */
+    background-color: #87CEEB; /* ボタンの背景色を水色に設定 */
+    color: #000; /* ボタンの文字色を黒に設定 */
     transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    background-color: #87CEEB; /* ホバー時の背景色を少し濃い水色に設定 */
-    color: #ADD8E6; /* ホバー時の文字色を黒に設定 */
+    background-color: #ADD8E6; /* ホバー時の背景色を少し薄い水色に設定 */
+    color: #000; /* ホバー時の文字色を黒に設定 */
 }
 
 .grid-container {
