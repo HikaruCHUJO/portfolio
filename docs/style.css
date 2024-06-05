@@ -14,9 +14,6 @@ body {
     text-align: center; /* テキストを中央揃え */
     padding: 20px; /* セクション全体にパディングを追加 */
 }
-.page + .page {
-    margin-top: 20px; /* セクション間にマージンを追加 */
-}    
 h1 {
     font-size: 3rem; /* 名前のサイズを調整 */
     font-family: cursive script, sans-serif; /* フォントを設定 */
