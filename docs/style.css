@@ -37,3 +37,12 @@ p {
     color: #000; /* テキストの色を黒に設定 */
     margin-top: 1rem; /* 上部に余白を追加 */
 }
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}  
