@@ -72,16 +72,14 @@ button:hover {
 
 .grid-item {
     position: relative; /* 内部要素を絶対配置するために必要 */
-    padding-top: 100%; /* 高さを幅の100%に設定して正方形を維持 */
+    padding-top: 10%; /* 高さを幅の100%に設定して正方形を維持 */
 }
 
 
 .grid-item img {
     position: absolute; /* 親要素に絶対配置 */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     object-fit: contain; /* 画像をコンテナに収める */
 }
 
