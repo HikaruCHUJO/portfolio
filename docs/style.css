@@ -74,8 +74,8 @@ button:active {
 }
 
 .grid-item {
-    width: 130px; /* 正方形のサイズを設定 */
-    height: 130px; /* 正方形のサイズを設定 */
+    width: 150px; /* 正方形のサイズを設定 */
+    height: 150px; /* 正方形のサイズを設定 */
     overflow: hidden; /* 写真のはみ出しを制御するために必要 */
 }
 
@@ -121,7 +121,7 @@ button:active {
         height: auto; /* 高さを自動調整 */
     }
     .page + .page {
-    margin-top: 1000px; /* セクション間にマージンを追加 */
+    margin-top: 1600px; /* セクション間にマージンを追加 */
 }
 
 }
