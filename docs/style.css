@@ -41,7 +41,7 @@ p {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
+    background: #ADD8E6;
     color: #fff;
     width: 100%;
     position: relative;
@@ -54,12 +54,12 @@ button {
     font-size: 1rem;
     cursor: pointer;
     border: 1px solid #fff;
-    background-color: #0000;
+    background-color: #ADD8E6;
     transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    background-color: #0000;
+    background-color: #ADD8E6;
     color: #fffff9;
 }
 
