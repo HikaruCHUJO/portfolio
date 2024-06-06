@@ -74,7 +74,7 @@ button:active {
 }
 
 .grid-item {
-    width: 205px; /* 正方形のサイズを設定 */
+    width: 210px; /* 正方形のサイズを設定 */
     height: 150px; /* 正方形のサイズを設定 */
     overflow: hidden;  /*写真のはみ出しを制御するために必要 */
 }
